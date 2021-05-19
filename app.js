@@ -1,4 +1,4 @@
-// app.js
+// app.js 注册小程序应用
 App({
   onLaunch() {
     // 展示本地存储能力
