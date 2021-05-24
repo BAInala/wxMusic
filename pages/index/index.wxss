@@ -31,27 +31,16 @@
 .text{
     font-size: 26rpx;
 }
-/* 推荐歌曲 */
+
+
+/* 推荐内容区域 */
 .recommendContainer{
     padding: 20rpx;
 }
-.recommendContainer .header .title{
-    font-size: 32rpx;
-    /* line-height: 80rpx; */
-    color: #666;
-}
-.more{
-    float: right;
-    border: 1px solid #333;
-    padding: 10rpx 20rpx;
-    border-radius: 26rpx;
-    font-size: 24rpx;
-}
-
-/* 推荐内容区域 */
 .recommendScroll{
     display: flex;
     margin-top: 20rpx;
+    height: 300rpx;
 }
 .scrollItem{
     width: 200rpx;
@@ -81,3 +70,43 @@
   
     -webkit-line-clamp: 2;
   }
+
+
+
+  /* 排行榜区域 */
+  .toplist{
+      padding: 20rpx;
+  }
+  .topListSwiper{
+      height:400rpx;
+  }
+  .swiperItem{
+      width:96%;
+      background:#fbfbfb
+  }
+  .musicItem{
+      display: flex;
+      margin-bottom: 20rpx;
+  }
+  .musicItem .title{
+      font-size: 30rpx;
+      line-height:80rpx
+  }
+  .musicItem image{
+      width:100rpx;
+      height:100rpx;
+      border-radius: 6rpx;
+  }
+  .musicItem .count{
+      width: 100rpx;
+      line-height: 100rpx;
+      text-align: center;
+  }
+.musicItem .muscicName{
+    height: 100rpx;
+    line-height: 100rpx;
+    white-space: nowrap;
+    overflow: scroll;
+    max-width: 200rpx;
+    text-overflow: ellipsis;
+}
